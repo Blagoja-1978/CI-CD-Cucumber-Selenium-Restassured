@@ -20,8 +20,8 @@ pipeline {
     }
 
     environment {
-        MAVEN_HOME = 'C:\Program Files\apache-maven-3.9.11'
-        JAVA_HOME = 'C:\Program Files\Java\jdk-24'
+        MAVEN_HOME = 'C:/Program Files/apache-maven-3.9.11'
+        JAVA_HOME = 'C:/Program Files/Java/jdk-24'
         PATH = "${MAVEN_HOME}/bin;${JAVA_HOME}/bin;${PATH}"
     }
 
